@@ -1,0 +1,244 @@
+.login-box{
+    width:280px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    color:black;
+  }
+  .login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 4px solid aqua;
+    margin-bottom: 50px;
+    padding: 13px 0;
+  }
+  .textbook{
+    width: 100%
+    overflow:hidden;
+    font-size:20px;
+    padding:8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid aqua;
+  }
+  .textbook i{
+    width:26px;
+    float: left;
+    text-align: center;
+  }
+  .textbook input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%
+    float:left;
+    margin: 0 10px;
+  }
+  .btn{
+    width: 100%;
+    background: none;
+    border: 2px solid aqua;
+    color:white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin:12px 0;
+  }
+  
+  body{
+    margin: 0;
+    font-family:system-ui;
+  }
+  .parallax, .parallaxal{
+    background-image: url("https://nrcpublicblog.files.wordpress.com/2015/06/fruitsandveg.jpg");
+    height:max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover; 
+  }
+  .page-title{
+    text-align: center;
+    color:white;
+    padding:50px;
+    font-variant:small-caps;
+    font-size: 100px;
+    font-family:fantasy;
+    letter-spacing:20px;
+  }
+  .sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+  }
+  .menu{
+    background:aqua;
+    text-align: center;
+  }
+  .menu-ul{
+    margin:0;
+    padding: 0;
+    display:inline;
+  }
+  .menu-ul li{
+    font-size: 17px;
+    list-style-type: none;
+    display: inline-block;
+    padding:25px 25px 26px 25px;
+  }
+  .a-menu, a-links{
+    text-decoration:none;
+    color:white;
+  }
+  .menu-ul li:hover{
+    background:antiquewhite;
+    transform:scale(1.1);
+  }
+  .search-box{
+    border:1px solid black;
+    border-radius:50px;
+    background:white;
+    display:inline-block;
+    margin:4px;
+  }
+  .search-box:hover{
+    box-shadow:0 0 10px 2px deeppink;
+    border:1px solid deeppink;
+  }
+  .search-input{
+    width:250px;
+    border:none;
+    font-size:20px;
+    outline:none;
+    background: transparent;
+    margin:15px 0 0 10px; 
+  }
+  i{
+    font-size:20px;
+    margin:0 10px 0 0;
+  }
+  button{
+    background: transparent;
+    border:none;
+    outline:none;
+    position:center;
+  }
+  .container, .deals-container{
+    margin:50px 50px 50px 5%;
+    width:90%;
+    text-align:center;
+  }
+  .categories, .items{
+    width:max-content;
+    margin:25px;
+    border:1px solid dodgerblue;
+    border-radius:0 0 50px 50px;
+    display:inline-block;
+  }
+  .categories:hover, .items:hover{
+    box-shadow:0 0 10px 3px deeppink;
+  }
+  .item-image{
+    height:200px;
+    width:200px;
+    border-radius:0 0 50px 50px;
+    padding: 10px;
+  }
+  .image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight:bold;
+  }
+  a{
+    text-decoration: none;
+  }
+  .title{
+    padding:50px;
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:10px;
+    color:white;
+    background:dodgerblue;
+  }
+  .deal{
+    padding: 50px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    margin:20px;
+    max-width:20%;
+    background:linear-gradient(120deg,deeppink 20%,skyblue 50%,deeppink 80%);
+  }
+  .coupon-btn{
+    border:1px solid aliceblue;
+    color:white;
+    padding: 10px;
+    border-radius:20px;
+  }
+  .coupon-btn:hover{
+    box-shadow:0 0 10px 5px deepskyblue inset;
+  }
+  .images{
+    display: inline-block;
+  }
+  .item-image-size{
+    height:200px;
+    width:300px;
+    padding: 5px;
+  }
+  .description{
+    margin:20px;
+    min-height:100px;
+  }
+  .item-select{
+    margin:10px 0 0 0;
+    color:black;
+  }
+  .buynow-btn{
+    border:1px solid deepskyblue;
+    background:deepskyblue;
+    padding:5px 15px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-top:10px;
+    color:white;
+  }
+  .buynow-btn:hover{
+    border:1px solid deeppink;
+    box-shadow: 0 0 10px 5px deeppink inset;
+  }
+  .parallaxal{
+    background-image: url("https://cbsnews1.cbsistatic.com/hub/i/2015/08/24/7b3027e3-6c06-4d2f-ba65-8c179c66f50e/istock000039803170medium.jpg");
+  }
+  .footer{
+    text-align: center;
+    padding: 20px;
+  }
+  .quick-links{
+    color:deeppink;
+    font-size:20px;
+    font-weight:bold;
+    display:inline-block;
+    min-width:30%;
+  }
+  .quick-links ul{
+    padding:0;
+  }
+  .quick-links li{
+    list-style:none;
+    padding:10px;
+    font-weight:300;
+  }
+  .a-links:hover{
+    color:aqua;
+  }
+  .copyrights{
+    font-size:16px;
+    font-family:verdana, arial, helvecita, sans-serif;
+    text-align:center;
+    margin:15px;
+    color:red;
+  }
